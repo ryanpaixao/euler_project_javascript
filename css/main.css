@@ -1,0 +1,12 @@
+body	{
+	background-color: blue;
+}
+div	{
+	margin-left: 30%;
+	text-align: center;
+	background-color: blue;
+	color: white;
+	height:100%;
+	width: 40%;
+	line-height: 160%;
+}
