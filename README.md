@@ -29,6 +29,7 @@
 [largest_prime_ln.js](https://github.com/ryanpaixao/javascript/blob/rawjs/largest_prime_ln.js) is the solution to:
   
   "The prime factors of 13195 are 5, 7, 13 and 29. What is the largest prime factor of the number 600851475143 ?"
+
   *Note:* Using largest_prime.js on numbers larger than 100 million will cause the browser to become unresponsive. That's
   why I created largest_prime_ln.js. It looks for prime factors that are larger than 1000 and smaller than quotient of
   the input number and 1000.
