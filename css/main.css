@@ -1,14 +1,41 @@
 body	{
-	background-color: blue;
+	background-color: #001866;
 }
 
 div	{
-	margin-left: 25%;
 	text-align: center;
-	background-color: blue;
+	background-color: #668cff;
+	border: 0.2em solid #4d79ff;
+	border-radius: 1%;
+	width: 70%;
+	height: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+p	{
+	text-align: center;
+	background-color: #668cff;
 	color: white;
-	height:100%;
-	width: 50%;
 	line-height: 160%;
 	word-wrap: break-word
+}
+
+button	{
+	text-align: center;
+	background-color: blue;
+	border: 0.2em solid #0000cc;
+	color: #001866;
+	height: 2em;
+	width: 10em;
+	
+}
+
+#header{
+	background-color: #7676a3;
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 7em;
 }
