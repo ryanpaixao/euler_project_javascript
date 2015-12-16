@@ -1,3 +1,14 @@
+function bigImg(x) {
+    x.style.height = "4.5em";
+    x.style.width = "4.5em";
+}
+
+function normalImg(x) {
+    x.style.height = "4em";
+    x.style.width = "4em";
+}
+
+
 var num_sort = function ()	{
 	var ans_total = 0; 
 	for (var i = 1; i < 1000; i++)	{
