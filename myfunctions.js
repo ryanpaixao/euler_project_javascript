@@ -10,8 +10,6 @@ var num_sort = function ()	{
 };	
 
 
-
-
 var fibonacci = function()	{
 	var number_new = 1;
 	var number_old = 0;
