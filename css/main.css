@@ -7,7 +7,8 @@ body	{
 img	{
 	height: 4em;
 	width: 4em;
-	margin-top: .3em;
+	margin: .3em;
+	
 }
 
 h1	{
@@ -30,6 +31,7 @@ h3	{
 	text-align: left;
 	font-size: 15pt;
 	color: #0000cc;
+	margin-bottom: 6.5%;
 }
 
 div	{
@@ -39,19 +41,21 @@ div	{
 	border: 0.2em solid #4d79ff;
 	border-radius: 1%;
 	width: 70%;
-	height: 18em;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1%;
 	position: relative;
+	padding: 1%;
 }
 
 p	{
+	margin-bottom: 2%;
 	text-align: left;
 	background-color: #668cff;
 	color: white;
 	line-height: 130%;
-	word-wrap: break-word
+	word-wrap: break-word;
 }
 
 button	{
@@ -61,6 +65,7 @@ button	{
 	color: white;
 	height: 2em;
 	width: 10em;
+	margin-top: 2%;
 	
 }
 
@@ -69,10 +74,11 @@ button	{
 	position: relative;
 	top: 0;
 	width: 100%;
-	height: 6em;
+	height: auto;
 	border: 0.2em solid #4d79ff;
 	/*border: 0.2em solid #666699;*/
 	margin: 0;
+	padding: 0;
 
 }
 
@@ -83,9 +89,10 @@ button	{
 	color: white;
 	border: 0.2em solid #4d79ff;
 	border-radius: 1%;
-	width: 7%;
-	height: 14em;
+	width: 5.2em;
+	height: 15em;
 	margin: 0;
+	padding: 0;
 }
 
 #output1, #output2, #output3	{
